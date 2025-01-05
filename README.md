@@ -34,7 +34,7 @@ I think imagemagick uses libheif for avif.
 | ----- | :-: | :----: | -------------- |
 | avif  |  ✘  |   ✘    | libheif?       |
 | heif  |  ✘  |   ✘    | libheif        |
-| jpg   |  ✔  |   ✔    | libjpeg-turbo? |
+| jpg   |  ✔  |   ✔    | libjpeg-turbo |
 | jxl   |  ✘  |   ✘    | libjxl         |
 | png   |  ✔  |   ✔    | libpng         |
 | webp  |  ✔  |   ✔    | libwebp        |
