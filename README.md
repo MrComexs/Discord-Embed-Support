@@ -9,8 +9,6 @@ Mobile = Android 14 One UI 6.1
 # Audio playback support
 tool: `flac` `ffmpeg` `lame` 
 
-note: for ACC its AAC_LC and it was from a random file I had. I wasn't able to use ffmpeg to make a acc file.
-
 WAV 64 bit float point isn't supported.
 | Container | PC  | Mobile |
 | --------- | :-: | :----: |
@@ -18,8 +16,8 @@ WAV 64 bit float point isn't supported.
 
 | Codec  | Container | PC? | Mobile | Encoder   |
 | ------ | --------- | :-: | :----: | --------- |
-| AAC    | m4a       |  ✔  |   ✘    |           |
-| AAC    | mka       |  ✘  |   ✘    |           |
+| AAC LC | m4a       |  ✔  |   ✘    | aac       |
+| AAC LC | mka       |  ✘  |   ✘    | aac       |
 | FLAC   | flac      |  ✔  |   ✘    | libflac   |
 | MP3    | mp3       |  ✔  |   ✘    | lame      |
 | OPUS   | ogg,opus  |  ✔  |   ✘    | libopus   |
