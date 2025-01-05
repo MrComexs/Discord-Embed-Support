@@ -81,5 +81,5 @@ WAV 64 bit float point isn’t supported.
 | PCM (WAV)    |  ✔  |   ✘    | ffmpeg     |
 
 ---
-# Licenses
+# License
 CC BY-SA-4.0
