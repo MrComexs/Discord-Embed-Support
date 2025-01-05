@@ -18,8 +18,8 @@ WAV 64 bit float point isn't supported.
 
 | Codec  | Container | PC? | Mobile | Encoder   |
 | ------ | --------- | :-: | :----: | --------- |
-| ACC    | m4a       |  ✔  |   ✘    |           |
-| ACC    | mka       |  ✘  |   ✘    |           |
+| AAC    | m4a       |  ✔  |   ✘    |           |
+| AAC    | mka       |  ✘  |   ✘    |           |
 | FLAC   | flac      |  ✔  |   ✘    | libflac   |
 | MP3    | mp3       |  ✔  |   ✘    | lame      |
 | OPUS   | ogg,opus  |  ✔  |   ✘    | libopus   |
@@ -69,7 +69,7 @@ tool:`ffmpeg`
 
 | Codec  | PC? | Mobile | Encoder    |
 | ------ | :-: | :----: | ---------- |
-| ACC    |  ✔  |   ✔    |            |
+| AAC    |  ✔  |   ✔    |            |
 | FLAC   |  ✔  |   ✔    | libflac    |
 | MP3    |  ✔  |   ✔    | libmp3lame |
 | OPUS   |  ✔  |   ✔    | libopus    |
