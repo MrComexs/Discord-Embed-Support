@@ -3,15 +3,15 @@ PC = Windows 10 / Arch Linux
 - Discord app
 - Vesktop
 - Vencord
+
 Mobile = Android 14 One UI 6.1
 
-# Audio only playback support
+# Audio playback support
 tool: `flac` `ffmpeg` `lame` 
+
 note: for ACC its AAC_LC and it was from a random file I had. I wasn't able to use ffmpeg to make a acc file.
 
 WAV 64 bit float point isn't supported.
-
-
 | Container | PC  | Mobile |
 | --------- | :-: | :----: |
 | mka       |  ✘  |   ✘    |
@@ -28,8 +28,8 @@ WAV 64 bit float point isn't supported.
 
 # Image preview support 
 tool: `imagemagick`
-I think imagemagick uses libheif for avif.
 
+I think imagemagick uses libheif for avif.
 | Codec | PC  | Mobile | Encoder        |
 | ----- | :-: | :----: | -------------- |
 | avif  |  ✘  |   ✘    | libheif?       |
@@ -41,7 +41,6 @@ I think imagemagick uses libheif for avif.
 
 # Animation preview support
 tool: `ffmpeg`
-
 | Codec | PC  | Mobile |
 | ----- | :-: | :----: |
 | avif  |  ✘  |   ✘    |
@@ -52,8 +51,8 @@ tool: `ffmpeg`
 
 # Video playback support
 tool:`ffmpeg`
-`h265` first frame can be seen on Desktop but audio works as indented. 
 
+`h265` On my Arch Linux install the first frame is the only frame but the audio doesn't have any issues.
 | Container | PC  | Mobile |
 | --------- | :-: | :----: |
 | mkv       |  ✘  |   ✘    |
@@ -65,7 +64,7 @@ tool:`ffmpeg`
 | ----- | :-: | :----: | ---------- |
 | av1   |  ✘  |   ✘    | libsvtav1  |
 | h264  |  ✔  |   ✔    | libx264    |
-| h265  |  ✘  |   ✔    | libx265    |
+| h265  |  ✔  |   ✔    | libx265    |
 | vp9   |  ✔  |   ✔    | libvpx-vp9 |
 
 | Codec  | PC? | Mobile | Encoder    |
