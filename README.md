@@ -69,6 +69,8 @@ Video Codecs
 | vp9   |  ✔  |   ✔    | libvpx-vp9 |
 
 Audio Codecs
+
+WAV 64 bit float point isn’t supported.
 | Codec        | PC? | Mobile | Encoder    |
 | ------------ | :-: | :----: | ---------- |
 | AAC          |  ✔  |   ✔    | aac        |
