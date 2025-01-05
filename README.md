@@ -1,4 +1,4 @@
-# Discord-Embed-Support
+# Discord Embed Support
 PC = Windows 10 / Arch Linux
 - Discord app
 - Vesktop
