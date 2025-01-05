@@ -51,6 +51,8 @@ tool: `ffmpeg`
 tool:`ffmpeg`
 
 `h265` On my Arch Linux install the first frame is the only frame but the audio doesn't have any issues.
+
+Video Container
 | Container | PC  | Mobile |
 | --------- | :-: | :----: |
 | mkv       |  ✘  |   ✘    |
@@ -58,6 +60,7 @@ tool:`ffmpeg`
 | mp4       |  ✔  |   ✔    |
 | webm      |  ✔  |   ✔    |
 
+Video Codecs
 | Codec | PC  | Mobile | Encoder    |
 | ----- | :-: | :----: | ---------- |
 | av1   |  ✘  |   ✘    | libsvtav1  |
@@ -65,14 +68,15 @@ tool:`ffmpeg`
 | h265  |  ✔  |   ✔    | libx265    |
 | vp9   |  ✔  |   ✔    | libvpx-vp9 |
 
-| Codec  | PC? | Mobile | Encoder    |
-| ------ | :-: | :----: | ---------- |
-| AAC    |  ✔  |   ✔    |            |
-| FLAC   |  ✔  |   ✔    | libflac    |
-| MP3    |  ✔  |   ✔    | libmp3lame |
-| OPUS   |  ✔  |   ✔    | libopus    |
-| Vorbus |  ✔  |   ✘    | libvorbis  |
-| WAV    |  ✔  |   ✘    | ffmpeg     |
+Audio Codecs
+| Codec        | PC? | Mobile | Encoder    |
+| ------------ | :-: | :----: | ---------- |
+| AAC          |  ✔  |   ✔    | aac        |
+| FLAC         |  ✔  |   ✔    | libflac    |
+| MP3          |  ✔  |   ✔    | libmp3lame |
+| OPUS         |  ✔  |   ✔    | libopus    |
+| Vorbus       |  ✔  |   ✘    | libvorbis  |
+| PCM (WAV)    |  ✔  |   ✘    | ffmpeg     |
 
 ---
 # Licenses
