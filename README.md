@@ -41,7 +41,7 @@ I think imagemagick uses libheif for avif.
 tool: `ffmpeg`
 | Codec | PC  | Mobile |
 | ----- | :-: | :----: |
-| avif  |  ✘  |   ✘    |
+| avif  |  ✔  |   ✔    |
 | gif   |  ✔  |   ✔    |
 | jxl   |  ✘  |   ✘    |
 | png   |  ✘  |   ✘    |
@@ -63,7 +63,7 @@ Video Container
 Video Codecs
 | Codec | PC  | Mobile | Encoder    |
 | ----- | :-: | :----: | ---------- |
-| av1   |  ✘  |   ✘    | libsvtav1  |
+| av1   |  ✔  |   ✔    | libsvtav1  |
 | h264  |  ✔  |   ✔    | libx264    |
 | h265  |  ✔  |   ✔    | libx265    |
 | vp9   |  ✔  |   ✔    | libvpx-vp9 |
